@@ -1,0 +1,37 @@
+:root{color-scheme:dark}
+body{background:#141c17;color:#e9efe8}
+.topbar{background:#1b261e;border-bottom-color:#354438}
+.brand-copy small{color:#aabbaa}
+.brand-mark{background:#52765a}
+.intro-card{background:#243328}
+.intro-card:after{border-color:#405743;box-shadow:0 0 0 28px #2a3c2e,0 0 0 29px #405743}
+.eyebrow,.side-note{color:#b1c6ad}
+.intro-card h1 em{color:#bdd8ae}
+.intro-desc{color:#bac9b9}
+.intro-rule{background:#48604b}
+.today-chip{background:#2b392d;color:#c6d5c3}
+.composer,.moment{background:#202b23;border-color:#3a4a3d;box-shadow:0 8px 28px #07100840}
+.avatar,.moment-avatar{background:#36503a;color:#e5f1df}
+.composer-top p,.composer-hint,.moment-meta time{color:#afc0ad}
+.composer textarea{color:#f1f5ee}
+.composer textarea::placeholder{color:#a7b7a4}
+.composer-footer,.moment-bottom{border-top-color:#3a4a3d}
+.photo-button{color:#bedcba}
+.publish-button{background:#668e6b;box-shadow:0 4px 12px #0a170d55}
+.publish-button:disabled{opacity:.55}
+.utility-button{background:#293a2d;border-color:#506452;color:#e0eee0}
+.utility-button:hover,.more-button:hover{background:#334835}
+.utility-button:focus-visible,.publish-button:focus-visible{outline-color:#b7d6b7}
+.backup-note,.storage-status{color:#b4c6b2}
+.stream-label,.date-divider,.moment-bottom{color:#a9bda7}
+.stream-label div,.date-divider div{background:#3a4a3d}
+.photo-grid a{background:#354037}
+.quote-card{background:#302f28;color:#e1e2d3}
+.quote-card span,.quote-card small{color:#d6c593}
+.rail-note{color:#b3c7ae}
+.rail-note span,.empty div{color:#d9bd7d}
+.empty{background:#202b23;border-color:#4a5f4b;color:#b8cbb5}
+.empty h3{color:#e4efe0}
+.error{background:#49312e;color:#ffd7cc}
+.more-button{background:#293a2d;border-color:#506452;color:#e0eee0}
+footer{color:#a2b39f}
