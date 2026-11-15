@@ -1,4 +1,4 @@
-const CACHE = "abitoflife-shell-v2";
+const CACHE = "abitoflife-shell-v3";
 const SHELL = ["./", "./index.html", "./style.css", "./dark.css", "./app.js", "./favicon.svg", "./icon-180.png", "./manifest.webmanifest"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));
